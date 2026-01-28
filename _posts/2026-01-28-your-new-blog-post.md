@@ -14,29 +14,35 @@ AI4SWEng introduces a coordination-first architecture, where all development act
 
 The AI-SysDev Platform is organised into seven building blocks, each responsible for a distinct part of the software lifecycle. Together, they create a unified, auditable environment.
 ### 1. GUI & Execution
-	The primary interface between humans and the system. Users submit requirements, inspect generated artifacts, execute workflows, and intervene when necessary. This block also hosts the Developer Training Tool (KIO13), ensuring developers remain skilled and in control.
+The primary interface between humans and the system. Users submit requirements, inspect generated artifacts, execute workflows, and intervene when necessary. This block also hosts the Developer Training Tool (KIO13), ensuring developers remain skilled and in control.
 ### 2. Orchestration & Integration
-	Powered by KIO1, this block coordinates all other KIOs. KIO1 manages workflow sequencing, task decomposition, shared state propagation, and governance enforcement. Centralised orchestration ensures the platform behaves as a cohesive system, not a collection of disconnected tools.
+Powered by KIO1, this block coordinates all other KIOs. KIO1 manages workflow sequencing, task decomposition, shared state propagation, and governance enforcement. Centralised orchestration ensures the platform behaves as a cohesive system, not a collection of disconnected tools.
 ### 3. Requirements Engineering
-	Transforms stakeholder intent into structured, machine-interpretable specifications. Early formalisation reduces ambiguity and ensures traceability across downstream activities—from code generation to testing and compliance.
+Transforms stakeholder intent into structured, machine-interpretable specifications. Early formalisation reduces ambiguity and ensures traceability across downstream activities—from code generation to testing and compliance.
 ### 4. Core AI Engines
-	Hosts AI-driven development capabilities. The AI-SysDev Tool (KIO7) generates and refines code, applies bug fixes, and provides architectural reasoning—all under orchestration control.
+Hosts AI-driven development capabilities. The AI-SysDev Tool (KIO7) generates and refines code, applies bug fixes, and provides architectural reasoning—all under orchestration control.
 ### 5. Data Management
-	Provides persistent, shared system memory. Knowledge graphs, vector databases, and provenance-aware storage ensure context is preserved and reused, enabling consistent AI reasoning and reproducibility.
+Provides persistent, shared system memory. Knowledge graphs, vector databases, and provenance-aware storage ensure context is preserved and reused, enabling consistent AI reasoning and reproducibility.
 ### 6. Test Automation & DevOps
-	Integrates CI/CD pipelines, cross-compilation, and automated testing. The Test Automation Tool (KIO11) verifies correctness, robustness, and regression behaviour as part of the workflow, not as a final step.
+Integrates CI/CD pipelines, cross-compilation, and automated testing. The Test Automation Tool (KIO11) verifies correctness, robustness, and regression behaviour as part of the workflow, not as a final step.
 ### 7. Security & Governance
-	Ensures compliance, security, and ethical standards throughout the lifecycle. Governance is continuous, embedding traceability and auditability into every artifact.
+Ensures compliance, security, and ethical standards throughout the lifecycle. Governance is continuous, embedding traceability and auditability into every artifact.
 
 
 ## Key Innovation Outputs (KIOs): Coordinated Capabilities
 
 
 The platform advanced functionality is delivered through Key Innovation Outputs (KIOs). Each KIO implements a focused capability, but none operates independently. All actions are coordinated through KIO1, maintaining traceability, consistency, and governance.
-### · KIO1 – Orchestration & Integration: Central coordinator controlling workflows, dependencies, and shared state.
-### · KIO7 – AI-SysDev Tool: Provides AI-driven code generation, refinement, and architectural reasoning.
-### · KIO11 – Test Automation Tool (TAT): Verifies artifacts using advanced automated testing.
-### · KIO13 – Developer Training Tool: Supports human oversight, inspection, and skill development.
+
+### · KIO1 – Orchestration & Integration: 
+Central coordinator controlling workflows, dependencies, and shared state.
+### · KIO7 – AI-SysDev Tool: 
+Provides AI-driven code generation, refinement, and architectural reasoning.
+### · KIO11 – Test Automation Tool (TAT): 
+Verifies artifacts using advanced automated testing.
+### · KIO13 – Developer Training Tool: 
+Supports human oversight, inspection, and skill development.
+
 Additional KIOs provide specialised capabilities for requirements formalisation, architecture generation, privacy-preserving data generation, debugging, optimisation for constrained environments, and Responsible-Secure AI enforcement.
 
 
