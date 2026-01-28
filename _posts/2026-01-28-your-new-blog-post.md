@@ -10,6 +10,7 @@ AI4SWEng introduces a coordination-first architecture, where all development act
 
 ## Architectural Overview: The AI-SysDev Platform
 
+![AI-SysDev Architecture](/images/image1.png)
 
 
 The AI-SysDev Platform is organised into seven building blocks, each responsible for a distinct part of the software lifecycle. Together, they create a unified, auditable environment.
@@ -31,6 +32,7 @@ Ensures compliance, security, and ethical standards throughout the lifecycle. Go
 
 ## Key Innovation Outputs (KIOs): Coordinated Capabilities
 
+![AI-SysDev KIOs](/images/image2.png)
 
 The platform advanced functionality is delivered through Key Innovation Outputs (KIOs). Each KIO implements a focused capability, but none operates independently. All actions are coordinated through KIO1, maintaining traceability, consistency, and governance.
 
@@ -50,6 +52,7 @@ Additional KIOs provide specialised capabilities for requirements formalisation,
 ## Example Interaction Flow: From Requirement to Review
 A typical interaction in the AI4SWEng platform follows a controlled, end-to-end workflow:
 
+![AI4SWEng-interation flow](/images/image3.png)
   
 ### 1. Requirement
 Stakeholders/Users submit natural-language requirements via the GUI. KIO1 routes them to the appropriate requirements KIOs for formalisation and traceability.
