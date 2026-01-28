@@ -32,17 +32,17 @@ Ensures compliance, security, and ethical standards throughout the lifecycle. Go
 
 ## Key Innovation Outputs (KIOs): Coordinated Capabilities
 
-![AI-SysDev KIOs](/images/image2.png)
-
 The platform advanced functionality is delivered through Key Innovation Outputs (KIOs). Each KIO implements a focused capability, but none operates independently. All actions are coordinated through KIO1, maintaining traceability, consistency, and governance.
 
-### · KIO1 – Orchestration & Integration: 
+![AI-SysDev KIOs](/images/image2.png)
+
+ #### KIO1 – Orchestration & Integration: 
 Central coordinator controlling workflows, dependencies, and shared state.
-### · KIO7 – AI-SysDev Tool: 
+ #### KIO7 – AI-SysDev Tool: 
 Provides AI-driven code generation, refinement, and architectural reasoning.
-### · KIO11 – Test Automation Tool (TAT): 
+ #### KIO11 – Test Automation Tool (TAT): 
 Verifies artifacts using advanced automated testing.
-### · KIO13 – Developer Training Tool: 
+ #### KIO13 – Developer Training Tool: 
 Supports human oversight, inspection, and skill development.
 
 Additional KIOs provide specialised capabilities for requirements formalisation, architecture generation, privacy-preserving data generation, debugging, optimisation for constrained environments, and Responsible-Secure AI enforcement.
