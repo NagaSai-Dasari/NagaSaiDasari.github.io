@@ -37,15 +37,20 @@ The platform advanced functionality is delivered through Key Innovation Outputs 
 
 ![AI-SysDev KIOs](/images/image2.png)
 
- ### KIO1 – Orchestration & Integration: 
+
+1. **KIO1 – Orchestration & Integration:**
 Central coordinator controlling workflows, dependencies, and shared state.
- ### KIO7 – AI-SysDev Tool: 
+
+2. **KIO7 – AI-SysDev Tool:**
 Provides AI-driven code generation, refinement, and architectural reasoning.
- ### KIO11 – Test Automation Tool (TAT): 
+
+3. **KIO11 – Test Automation Tool (TAT):** 
 Verifies artifacts using advanced automated testing.
- ### KIO13 – Developer Training Tool: 
+
+4. **KIO13 – Developer Training Tool:** 
 Supports human oversight, inspection, and skill development.
 
+5. **Other KIOs:**
 Additional KIOs provide specialised capabilities for requirements formalisation, architecture generation, privacy-preserving data generation, debugging, optimisation for constrained environments, and Responsible-Secure AI enforcement.
 
 
