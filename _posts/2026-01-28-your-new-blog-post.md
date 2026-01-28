@@ -10,7 +10,8 @@ AI4SWEng introduces a coordination-first architecture, where all development act
 
 ## Architectural Overview: The AI-SysDev Platform
 
-![AI-SysDev Architecture](/images/image1.png)
+![AI-SysDev Architecture](https://github.com/NagaSai-Dasari/NagaSaiDasari.github.io/blob/a60ce49e8185c1ceaee4492ffee83d07b780aaf4/images/image1.png)
+
 
 
 The AI-SysDev Platform is organised into seven building blocks, each responsible for a distinct part of the software lifecycle. Together, they create a unified, auditable environment.
