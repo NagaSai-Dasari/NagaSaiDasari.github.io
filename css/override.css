@@ -32,6 +32,11 @@ hr {
   left: 0;
 }
 
+/* Make blog content justified */
+.post-content {
+  text-align: justify;
+}
+
 .post_navi .nav_next .post_navi-arrow {
   right: 0;
 }
